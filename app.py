@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load("")
+model = joblib.load("models/churn_model (2).pkl")
 
 scaler = joblib.load("")
 
