@@ -1,15 +1,10 @@
 import streamlit as st
-import pickle
+import joblib
 import numpy as np
 
+model = joblib.load("")
 
-model = pickle.load(
-open("models/churn_model (1).pkl","rb")
-)
-
-scaler = pickle.load(
-open("models/scaler.pkl","rb")
-)
+scaler = joblib.load("")
 
 
 st.title("🏦 Banking Customer Churn Prediction")
